@@ -1,0 +1,4 @@
+John, 96
+Jane, 88
+Jacob, 100
+Johanson, 98

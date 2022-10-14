@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // function printResult1(){
+        //     let x;
+        //     let y;
+        //     x=eval(prompt('x값입력 : ',0));
+        //     y=eval(prompt('y값입력 : ',0));
+        //     btnInput.value=x+y;
+        // }
+        // function init(){
+        //     let btnPrint = document.getElementById("btnInput");
+        //     btnPrint.onclick = printResult1;
+        // }
+        // window.onload = init;
+
+        // 위의 내용이 아래로 변환됨.
+        window.onload = function init(){
+            let btnPrint = document.getElementById("btnInput");
+            btnPrint.onclick = function(){
+                let x;
+                let y;
+                x=eval(prompt('x값입력 : ',0));
+                y=eval(prompt('y값입력 : ',0));
+                btnInput.value=x+y;
+            };
+            // 객체별 이벤트별 별도 기능을을 정의할 수 있음
+            btnPrint.onmouseover = function(){
+                alert("하이~");
+            };
+        };
+
+    </script>
+</head>
+<body>
+    <!-- btnInput이 정의된 후 script 수행하기 위해 순서 변경 필요 -->
+    <!-- onLoad라는 함수를 통해서 해결 가능. -->
+    <input type="button" id="btnInput" value="실행 전"/>
+    
+</body>
+</html>

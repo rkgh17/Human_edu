@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(function(){
+            // 여러개의 이벤트를 동시에 코딩가능.
+            $(".btn1 a").on("mouseover click", function(){
+                let ts = $(this); // this = btn1 a
+                ts.css("background-color","yellow");
+                // $(this).css("background-color","yellow"); 도 같은케이스
+                $(".btn1").next("ul").filter(":visible").hide();
+                // 주체중에 visibal인 상태이면 hide시켜라 라는 의미
+                ts.parent().next().show();
+                // 선택된 tag의 부모 다음의 것(ul)을 보여라
+            });
+        });
+    </script>
+</head>
+<body>
+    <p class="btn1">
+        <a href="#">이벤트대상 1</a>
+    </p>
+    <ul style="display: none ;">
+        <li>리스트1</li>
+        <li>리스트2</li>
+        <li>리스트3</li>
+    </ul>
+
+    <p class="btn1">
+        <a href="#">이벤트대상 2</a>
+    </p>
+    <ul style="display: none ;">
+        <li>리스트4</li>
+        <li>리스트5</li>
+        <li>리스트6</li>
+    </ul>
+</body>
+</html>
