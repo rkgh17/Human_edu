@@ -1,0 +1,18 @@
+// 경로 : sbb/src/main/java/com/mysite/sbb/question/QuestionController.java
+package com.mysite.sbb.question;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class QuestionController {
+	
+	// URL 매핑
+	@RequestMapping("/question/list")
+	public String list() {
+		
+		// http://localhost:8080/question/list에 접속하면 question_list.html 템플릿을 리턴해준다
+		return "question_list";
+	}
+
+}
