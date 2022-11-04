@@ -1,9 +1,0 @@
-<!-- 경로 : sbb/src/main/resources/templates/question_detail.html -->
-<h1 th:text="${question.subject}"></h1>
-<div th:text="${question.content}"></div>
-
-<!-- 답변 등록 from태그 : post방식 -->
-<form th:action="@{|/answer/create/${question.id}|}" method="post">
-    <textarea name="content" id="content" rows="15"></textarea>
-    <input type="submit" value="답변등록">
-</form>
