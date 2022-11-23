@@ -55,4 +55,4 @@
 <br/>
 
 - 챗봇 프로젝트
-  - [링크]
+  - [](https://github.com/rkgh17/human-subway/blob/main/project/%EC%A7%80%ED%95%98%EC%B2%A0%20%EC%B1%97%EB%B4%87%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8.pdf)
