@@ -15,14 +15,16 @@
 
 <br/>
 
-- Oracle SQL
+- SQL
   - 2022.09.05 ~ 2022.09.16
+  - 사용툴 : ORACLE
   - SQL 문법 & PLSQL 실습
 
 <br/>
 
 - Python
   - 2022.09.19 ~ 2022.09.27
+  - 사용툴 : Jupyter, Google Colab
   - python 문법 & numpy & pandas 실습
 
 <br/>
@@ -35,6 +37,7 @@
 
 - Python Machine Learning
   - 2022.10.14 ~ 2022.10.21
+  - 사용툴 : Jupyter, Google Colab
   - 시각화 & 모델 만들기
   - [블로그](https://rkgh17.github.io/categories/machine-learning/)
 
@@ -42,6 +45,7 @@
 
 - Python Deep Learning
   - 2022.10.21 ~ 2022.11.06
+  - 사용툴 : Jupyter, Google Colab
   - 시각화 & 신경망 만들기
   - [블로그](https://rkgh17.github.io/categories/deep-learning/)
 
@@ -49,6 +53,7 @@
 
 - Python PySpark
   - 2022.11.07 ~ 2022.11.09
+  - 사용툴 : Jupyter, Google Colab
   - 가상환경 세팅 & Spark 자료구조
   - [블로그](https://rkgh17.github.io/categories/deep-learning/)
 
