@@ -1,0 +1,65 @@
+---
+title: "시각화"
+output: html_notebook
+---
+
+
+### 데이터 불러오기
+```{r}
+library(tidymodels)
+
+data("ames")
+str(ames)
+
+```
+
+
+### 산점도
+```{r}
+ggplot(ames, aes(x=Year_Remod_Add, y=Sale_Price)) +
+  geom_point(aes(col = Overall_Cond)) +
+  xlim(c(1950,2010)) +
+  ylim(c(0,900000)) +
+  labs(x = "Remodeling Year",
+       y = "Price",
+       title = "Scatter Plot",
+       subtitle = "Remodelling Year - Price",
+       caption = "Source = ames")
+```
+
+### 막대그래프
+```{r}
+ggplot(ames, aes(x = Heating_QC))+
+  geom_bar(stat="count",
+           fill = "red",
+           colour="black")+
+  labs(title="Bar Chart",
+       subtitle = "Heating Quality - Count",
+       x = "Heating Quality",
+       y = "count",
+       caption = "Source = ames"
+       )+
+  scale_x_discrete(limits=c("Poor","Fair","Typical","Good","Excellent"))
+```
+
+
+### 히스토그램
+```{r}
+ggplot(ames, aes(x = Year_Built))+
+  geom_histogram(fill = "#8FBC8F",
+                 colour="black")+
+  labs(title="Histogram",
+       subtitle = "Building Year - Count",
+       x = "Building Year",
+       y="count")
+```
+
+
+
+
+
+
+
+
+
+

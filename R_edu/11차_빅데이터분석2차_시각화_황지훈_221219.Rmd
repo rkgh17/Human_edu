@@ -1,0 +1,336 @@
+---
+title: "11차 빅데이터 분석 II 및 시각화"
+output:
+  html_document:
+    toc: yes
+    df_print: paged
+  html_notebook:
+    toc: yes
+---
+
+## 프로젝트 개요
+- 강의명 : (산대특)_공공데이터 활용 빅데이터 분석 및 시각화 전문가 과정 육성
+- 교과목명 : 빅데이터 분석 II 및 시각화
+- 프로젝트 주제 : tidymodels 라이브러리 및 Sale Price 데이터를 활용한 시각화 및 머신러닝 모델 개발
+- 프로젝트 마감일 : 2022년 12월 19일 
+- 수강생명 : 황지훈
+
+
+## 평가 1. 라이브러리 불러오기 (5점)
+- 주요 라이브러리 및 설치 불러오는 코드를 작성한다. 
+
+```{r}
+library(tidymodels)
+```
+
+
+## 평가 2. 데이터 불러오기 (5점)
+- sale_price 데이터를 불러온다. 
+- head() 함수를 활용하여 데이터를 개괄적으로 보여주도록 한다. 
+```{r}
+data("ames")
+head(ames)
+```
+
+
+## 평가 3. 데이터 시각화 (50점)
+- 시각화 종류에 관계없이 시각화 10개를 작성한다. 
+- 평가기준
+  + 10개 작성 : 50점
+  + 7개 작성 : 35점
+  + 5개 작성 : 25점
+  + 3개 작성 : 15점
+- 참고자료
+  + URL : http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html
+
+
+### (1) Scatter
+- 리모델링년도별 가격 산점도 (1)
+  - 리모델링건수가 증가 추세에 있다. 
+```{r}
+ggplot(ames, aes(x=Year_Remod_Add, y=Sale_Price)) +
+  geom_point(color = "darkgrey") +
+  xlim(c(1950,2010)) +
+  ylim(c(0,900000)) +
+  labs(x = "Remodeling Year",
+       y = "Price",
+       title = "Scatter Plot",
+       subtitle = "Remodelling Year - Price")+
+  theme_bw()
+```
+
+
+- 리모델링년도별 가격 산점도 (2)
+  - 주택 상태별로 표시하였지만, 밀도가 너무 좁아 전체적인 분포 파악이 어렵다.
+```{r}
+ggplot(ames, aes(x=Year_Remod_Add, y=Sale_Price, color = Overall_Cond)) +
+  geom_point() +
+  xlim(c(1950,2010)) +
+  ylim(c(0,900000)) +
+  labs(x = "Remodeling Year",
+       y = "Price",
+       title = "Scatter Plot",
+       subtitle = "Remodelling Year - Price")+
+  theme_bw()+
+  scale_color_discrete(breaks=c("Excellent","Very_Good","Good","Above_Average","Average","Below_Average","Fair","Poor","Very_Poor"))
+```
+
+
+
+### (2) Density
+- 리모델링년도 별 밀도그래프 (1)
+  - 주택품질 별 밀도그래프이다.
+  - 품질이 좋은 주택의 분포가 상승추세이다.
+```{r}
+ggplot(ames, aes(x = Year_Remod_Add,
+                 fill = Overall_Cond))+
+  geom_density(position = position_stack(reverse = TRUE),
+               alpha=0.5)+
+  xlim(c(1950,2010)) +
+  labs(title="Density",
+       subtitle = "Remodeling Year - Density",
+       x = "Remodeling Year",
+       y="Density")+
+  theme_bw()+
+  scale_fill_discrete(breaks=c("Excellent","Very_Good","Good","Above_Average","Average","Below_Average","Fair","Poor","Very_Poor"))
+```
+
+- 리모델링년도 별 밀도그래프 (2)
+  - 난방품질 별 밀도그래프이다.
+  - 최근들어 Excellent등급 난방품질의 밀도가 비교적 높다.
+  - 1950년 이후로 Poor등급의 분포가 급락한것으로 보아, 향상된 난방기술의 보급이 이루어진듯 하다.
+```{r}
+ggplot(ames, aes(x = Year_Remod_Add,
+                 fill = Heating_QC))+
+  geom_density(alpha=0.5)+
+
+  labs(title="Density",
+       subtitle = "Remodeling Year - Density",
+       x = "Remodeling Year",
+       y="Density")+
+  theme_bw()+
+  scale_fill_discrete(breaks=c("Excellent","Good","Typical","Fair","Poor"))
+
+```
+
+### (3) Histogram
+- 건축년도별 히스토그램 (1)
+  - 건축 빈도가 증가 추세에 있다.
+```{r}
+ggplot(ames, aes(x = Year_Built))+
+  geom_histogram(fill = "#8FBC8F",
+                 colour="black",
+                 bins=30)+
+  labs(title="Histogram",
+       subtitle = "Building Year - Count",
+       x = "Building Year",
+       y="count")+
+  theme_bw()
+```
+
+- 건축년도별 히스토그램 (2)
+  - 난방 품질 범례를 추가하였다.
+  - 신축 건물일수록 난방 품질의 등급이 좋다.
+```{r}
+ggplot(ames, aes(x = Year_Built,
+                 fill = Heating_QC))+
+  geom_histogram(colour="black",
+                 bins=30)+
+  labs(title="Histogram",
+       subtitle = "Building Year - Count",
+       x = "Building Year",
+       y="count")+
+  theme_bw()+
+  scale_fill_discrete(breaks=c("Excellent","Good","Typical","Fair","Poor"))
+```
+
+
+### (4) Dot Plot
+- 주택 상태별 가격 Dot Plot (1)
+  - 산점도(2)에서 주택 상태별 가격 그래프를 좀 더 직관적으로 표시하였다.
+  - 상태별로 가격분포의 전체적인 모양이 유사하다.
+
+```{r}
+ggplot(ames, aes(x = Overall_Cond,
+                 y = Sale_Price))+
+  geom_dotplot(binaxis = "y",
+               binwidth = 3500)+
+  labs(title="Dot Plot",
+       subtitle = "Overall Condition - Price",
+       x = "Overall Condition",
+       y="Sale Price")+
+  ylim(c(0,900000))+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle=30))
+```
+
+- 주택 상태별 가격 Dot Plot (2)
+  - 중앙배열형으로 시각화하였다.
+
+```{r}
+ggplot(ames, aes(x = Overall_Cond,
+                 y = Sale_Price))+
+  geom_dotplot(binaxis = "y",
+               binwidth = 4400,
+               stackdir = "center",
+               color="RED")+
+  labs(title="Dot Plot",
+       subtitle = "Overall Condition - Price",
+       x = "Overall Condition",
+       y="Sale Price")+
+  ylim(c(0,900000))+
+  theme_bw()+
+  theme(axis.text.x = element_text(angle=30))
+```
+
+
+
+### (5) Bar Chart
+- 중앙에어컨 막대그래프 (1)
+  - 중앙에어컨 방식을 사용하는 주택이 압도적으로 많다.
+```{r}
+ggplot(ames, aes(x = Central_Air))+
+  geom_bar(stat="count",
+           fill = "skyblue",
+           colour="black")+
+  labs(title="Bar Chart",
+       subtitle = "Central_Air - Count",
+       x = "Central_Air",
+       y = "count")+
+  theme_bw()
+```
+
+- 중앙에어컨 막대그래프(2)
+  - 주택 품질별로 세분화하였다.
+```{r}
+ggplot(ames, aes(x = Central_Air,
+                 fill = Overall_Cond))+
+  geom_bar(stat="count",
+           colour="black",
+           position = position_stack(reverse = TRUE))+
+  labs(title="Bar Chart",
+       subtitle = "Central_Air - Count",
+       x = "Central_Air",
+       y = "count"
+       )+
+  theme_bw()+
+  scale_fill_discrete(breaks=c("Excellent","Very_Good","Good","Above_Average","Average","Below_Average","Fair","Poor","Very_Poor"))
+
+```
+
+
+## 평가 4. 요약 통계 구하기 (10점)
+- Sale_Price가 500000 이상인 데이터 중에서 Pool_QC에 따른 평균 Sale_Price 값을 구한다. 
+```{r}
+ames %>%
+  filter(Sale_Price>=500000) %>%
+  group_by(Pool_QC) %>%
+  summarise("Sale_Price (평균)" = mean(Sale_Price))
+```
+
+
+
+## 평가 5. 머신러닝 모델링 (20점)
+- 주어진 규칙에 따라 머신러닝 코드를 작성한다. 
+  + `8:2` 비율로 훈련데이터셋 및 테스트데이터셋으로 분리한다. (5점)
+  + 모델링은 `RandomForest`와 `glmnet` 알고리즘을 활용한다. (10점)
+    - 만약 1개만 사용 시 5점만 부여
+  + feature Engineering 코드는 주어진 코드이기 때문에 그대로 활용한다. 
+- 옵션: 필요 시, 라이브러리 설치를 한다. 
+  + `install.packages(c('ranger', 'glmnet'))`
+- Sale_Price와 각 모델의 예측 결과표를 만든다. (5점)
+
+### (1) 훈련/테스트 데이터셋 만들기 
+- `8:2` 비율로 훈련데이터셋 및 테스트데이터셋으로 분리한다. (5점)
+```{r}
+set.seed(42)
+
+data_split = initial_split(ames, strata = 'Sale_Price', prop = 0.8)
+
+ames_train = training(data_split)
+ames_test = testing(data_split)
+
+x_features = recipe(
+    Sale_Price ~ Garage_Area + Garage_Cond + Latitude + Lot_Area + Neighborhood + Year_Sold, 
+    data = ames_train
+  ) %>%
+  step_other(Neighborhood) %>% 
+  step_dummy(all_nominal()) %>%
+  step_center(all_predictors()) %>%
+  step_scale(all_predictors()) %>%
+  step_log(Sale_Price, base = 10) %>% 
+  
+  prep(training = ames_train, retain = TRUE)
+
+data <- bake(x_features, new_data = ames_test, all_predictors())
+```
+
+### (2) RandomForest 
+- RandomForest 모형을 작성 후, 확인한다. 
+```{r}
+rand_fit = rand_forest(mode = "regression", mtry = .preds(), trees = 1000) %>%
+  set_engine("ranger") %>%
+  fit(
+    Sale_Price ~ ., data = bake(x_features, new_data = NULL)
+  )
+
+rand_fit
+```
+
+### (3) glmnet 
+- glmnet 모형을 작성 후, 확인한다. 
+
+```{r}
+glmn_fit = linear_reg(penalty = 0.001, mixture = 0.5) %>% 
+  set_engine("glmnet") %>%
+  fit(Sale_Price ~ ., data = bake(x_features, new_data = NULL))
+
+glmn_fit
+```
+
+### (4) 예측 결과표 만들기
+- Sale_Price 컬럼과 예측 모델 결과표를 합한 새로운 데이터 프레임이다. 
+```{r}
+
+data <- bake(x_features, new_data = ames_test, all_predictors())
+
+test_results <- ames_test  %>% 
+  select(Sale_Price) %>% 
+  mutate(Sale_Price = log10(Sale_Price)) %>% 
+  bind_cols(
+    predict(rand_fit, new_data = data) %>%
+      rename(randomForest = .pred)
+    , predict(glmn_fit, new_data = data) %>%
+      rename(glmnet = .pred)
+  )
+
+test_results
+```
+
+## 평가 6. 두개의 모형 비교 (10점)
+- 회귀모형 평가지표를 활용하여 예측 지표를 작성한다. (5점)
+
+```{r}
+randomForest_results = test_results %>% 
+  metrics(truth = Sale_Price, estimate = randomForest) %>% 
+  mutate(model = 'randomForest')
+
+glmnet_result = test_results %>% 
+  metrics(truth = Sale_Price, estimate = glmnet) %>% 
+  mutate(model = 'glmnet')
+
+bind_rows(randomForest_results, glmnet_result)
+```
+
+- 두개의 그래프를 비교하는 코드를 작성한다. (5점)
+```{r}
+test_results %>% 
+  gather(model, prediction, -Sale_Price) %>% 
+  ggplot(aes(x = prediction, y = Sale_Price)) + 
+  geom_abline(col = "green", lty = 2) + 
+  geom_point(alpha = .4) + 
+  facet_wrap(~model) + 
+  coord_fixed() + 
+  theme_bw()
+```
+
