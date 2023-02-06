@@ -1,0 +1,27 @@
+﻿http://news.livedoor.com/article/detail/6361347/
+2012-03-12T17 : 00 : 00 + 0900
+이것을 붙이면 빨라진다! ? AMD 플랫폼에 최적화 된 메모리 등장
+아 스크는 Patriot Memory가 제공하는 "AMD Memory」의 취급을 시작했다. AMD Fusion APU에 최적화되어 있으며, AMD 플랫폼에서 CPU와 내장 GPU 성능 모두를 꺼내는 것이 가능한다. 1 장만 단품 2 개 세트 두 종류가 판매된다.
+
+이번에 출시되는 'AMD Memory "는 AMD 플랫폼에 최적화 된 DDR3 메모리라고한다. DDR3-1600의 광대역 버전도 라인업하고 AMD Fusion APU의 CPU 성능을 최대화 이외에 내장 그래픽의 성능도 동시에 이끌어 낼 수 있다고하고있다. 또한, 테스트 및 벤치 마크 부하 시험 등 다양한 시험을 통과 한 DRAM만을 사용하기 때문에 높은 신뢰성을 갖는다 고한다.
+
+이 신뢰성 테스트와 검증은 AMD 플랫폼뿐만 아니라 인텔 플랫폼에서도 확인이 이루어지고 있기 때문에 인텔 CPU 사용자도 안심하고 사용할 수 있도록되어있는 것이 기쁘다. 다양한 사용자를위한 단품 모델 "Entertainment Edition"과 성능을 중시 한 낮은 레이턴시 메모리 2 장 세트 "Performance Edition '이 마련된다.
+
+2G 바이트의 단품 모델이 시장 가격으로 1600 엔에 달할 것으로되어 있으며, 가격 대비 성능으로 뛰어난 메모리 모듈이라고 할 수 있겠다. 4G 바이트를 4 장, 16G 바이트라는 대용량을 구입해서 1 만엔 정도로 자작 사용자의 품에 친화적 인 것이 기쁘다. 발매는 3 월 중순 곧이므로 메모리 증설을 생각하고 있다면, 염두에 두자.
+
+■ AMD Memory Performance Edition
+■ AMD Memory Entertainment Edition
+■ 아 스크
+
+
+
+
+■ PC 부품의 기사 더보기
+· 차세대 22nm 프로세서 지원 "Z77X-UD5H"마더 보드의 매력을 뒤진다
+· 들려왔다 IVY Bridge의 발자취! GIGABYTE가 CeBIT 2012에서 IVY Bridge 대응 마더 전시
+· Windows 8 시대에서도 사용할 소형 PC에 최적! 차세대 22nm 프로세서 지원 가능한 높은 비용 성능 Mini-ITX 메인 보드 "GA-H61N-USB3" "
+· GIGABYTE, Z68 인기 모델 Bluetooth4.0 / Wi-Fi 카드를 추가! PC의 무선 화를 가속하는 'GA-Z68XP-UD4 / WIFI」을 발표
+
+
+ZOTAC AMD Fusion E350 APU 탑재 소형 베어 본 PC ZBOXNANO-AD10
+입소문을 본다

@@ -1,0 +1,36 @@
+﻿http://news.livedoor.com/article/detail/6346531/
+2012-03-07T17 : 00 : 00 + 0900
+들려왔다 IVY Bridge의 발자취! GIGABYTE가 CeBIT 2012에서 IVY Bridge 대응 마더 전시
+현재 독일 하노버에서 개최중인 CeBIT 2012에서 GIGABYTE가 SandyBridge 후계가되는 대망의 신형 CPU, IVY Bridge 용 칩셋 "Intel Z77 Express"를 탑재 한 메인 보드 'GIGABYTE 7 시리즈'를 전시 중이다.
+
+GIGABYTE 7 시리즈 메인 보드는 내장 그래픽의 성능이 크게 향상되고, 오버 클럭 내성도 매우 높다고하는 신형 CPU, IVY Bridge 용 칩셋 Intel Z77 Express를 탑재 한 메인 보드 제품군된다.
+
+습도, 정전기, 단선, 방열 등 모든 마더 보드를 저하시키는 원인이되는 원인에 대한 내구성을 향상시킨 Ultra Durable 4라는 회사의 규격을 채용하고있는 것이 포인트 다.
+
+새로운 BIOS에서 EFI로 변경되었으며, EFI 작업 화면에 관해서도 기존의 BIOS와 유사한 작업 창 이외에 3D 그래픽 작업 화면에서 조작 할 수 있도록되어있다 (그림 1). 또한 EFI 용 ROM을 2 개 탑재하여 한쪽에 문제가 발생해도 백업 측이 자동으로 복구하고 복귀 할 수 있다는 Dual EFI라는 편리한 기능을 탑재하고있다.
+
+
+ 
+그림 1 ■ 3D BIOS라는 그래픽 사용자 인터페이스
+
+
+
+전원 회로에 모든 디지털 전원을 이용한 "올 디지털 엔진 '설계를 채용하고있는 것도 포인트 다. 올 디지털 엔진은 IVY Bridge의 CPU 본체 내장 그래픽, VTT 및 메모리의 4 계통의 전원 공급 회로가 디지털화되어 있기 때문에 기존보다 더 정확하고 섬세한 제어가 가능하게되어있다.
+
+플랫폼을 갖춘 것으로 IVY Bridge의 접시는 이미 완성되어있는 것으로보고 좋을 것이다. 등장은 4 월 중순 이후 (4 월 29 일 정도)라고하는 IVY Bridge하지만 하루라도 빨리 등장을 바라고 싶은 곳이다.
+
+■ 자료 페이지
+■ 일본 기가 바이트
+
+
+
+
+■ 기가 바이트의 기사 더보기
+· Windows 8 시대에서도 사용할 소형 PC에 최적! 차세대 22nm 프로세서 지원 가능한 높은 비용 성능 Mini-ITX 메인 보드 "GA-H61N-USB3"
+· GIGABYTE, Z68 인기 모델 Bluetooth4.0 / Wi-Fi 카드를 추가! PC의 무선 화를 가속하는 'GA-Z68XP-UD4 / WIFI」을 발표
+아키하바라 기가 바이트 쇼룸이 폐점 마지막주는 선물 실시도 "
+· GIGABYTE, CES 2012에서 차세대 메인 보드를 선보였다! 3D 파워 디자인과 UEFI BIOS를 채용
+
+
+GIGABYTE 그래픽 카드 nVIDIA GeForce GTX560 1GB PCI-E DVI mini-HDMI WINDFORCE2X 오버 GV-N56GOC-1GI
+입소문을 본다

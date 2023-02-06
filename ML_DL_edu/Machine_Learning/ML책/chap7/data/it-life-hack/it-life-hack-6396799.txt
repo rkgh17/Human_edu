@@ -1,0 +1,40 @@
+http://news.livedoor.com/article/detail/6396799/
+2012-03-23T17 : 00 : 00 + 0900
+Kepler 탑재 제품이 등장! MSI와 ZOTAC보다 NVIDIA GeForce GTX 680 카드
+Kepler 수 NVIDIA의 GeForce GTX 680을 탑재 한 그래픽 카드가 속속 등장 중이다. Intel의 TurboBoost의 GPU 버전이라고도 할 수있는 자동 오버 클럭 기능 "GPU Boost"기능. 부하는 그리 높지는 않으나 높은 품질의 렌더링있는 앤티 앨리어싱 기능 "TXAA」기능도 탑재하고있어 고성능 · 고품질이 고차원으로 양립하고있는 것이 특징이다.
+■ MSI는 자체 팬 탑재로 오버 클럭 가능한 모델
+
+
+ 
+사진 1 ■ MSI가 출시하는 GeForce GTX 680 제품은 'MSI N680GTX-PM2D2GD5 "
+
+
+MSI가 출시하는 GeForce GTX 680 제품은 'MSI N680GTX-PM2D2GD5 "이다 (사진 1). CUDA 코어 수가 1536 유닛에 8 단위 SMX를 가진다. 전원은 6 핀 × 2로 동작한다. 소비 전력은 최대 195 와트와 고급 지향 GPU 것 같지만, 그래도 GeForce GTX 580과 비교하면 저전력되어있다. 거의 레퍼런스 디자인을 답습 한 카드 디자인으로되어있다. GPU 코어의 검게은 1006MHz, GPUBoost에서 1058MHz까지 자동으로 오버 클럭이 이루어진다. 그래픽 메모리는 2G 바이트 (GDDR5)에 부속 소프트의 Tweak 기능이다 "Afterburner"를 사용하여 더욱 오버 클럭도 가능하다.
+
+제품 이름 : MSI N680GTX-PM2D2GD5
+번호 : N680GTX-PM2D2GD5
+발매시기 : 3 월 23 일
+예상 시장 가격 : 60,000 엔 전후
+
+■ ZOTAC은 정상에서 안정적인 동작 중시 사용자에게 추천
+
+ZOTAC의 GeForce GTX 680 탑재 카드 "ZOTAC GTX680 2GB DDR5"는 레퍼런스 디자인에 준거 한 안정 지향의 제품이있다. 안정적인 동작을 철저히하기 위해 카드에 탑재하는 콘덴서는 모두 일제 솔리드 캐패시터를 사용하고 있다고한다. 이로 인해 작동 온도가 -55 ℃에서 150 ℃까지 폭넓게되고, 또한 제품 수명도 긴 수명을 실현하고있다. 4 개의 디스플레이에 출력 할 수 있지만 3 장까지 3D 화하여 입체 영상을 즐길 수있는 '3D Vision Surround'도 지원한다.
+
+
+ 
+사진 2 ■ ZOTAC의 GeForce GTX 680 탑재 카드 "ZOTAC GTX680 2GB DDR5"
+
+
+제품 이름 : ZOTAC GTX680 2GB DDR5
+번호 : ZTGTX680-2GD5NVTR001 / ZT-60101-10P
+발매시기 : 3 월 22 일
+예상 시장 가격 : 60,000 엔 전후
+
+■ 그래픽 카드 정보
+■ 아 스크
+
+
+
+
+ZOTAC NVIDIA GeForce GTX680 탑재 그래픽 카드 GTX680 2GB DDR5 일본 정규 대리점 상품 (VD4562) ZTGTX680-2GD5NVTR001
+입소문을 본다

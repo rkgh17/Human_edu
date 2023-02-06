@@ -1,0 +1,85 @@
+http://news.livedoor.com/article/detail/6385394/
+2012-03-20T12 : 00 : 00 + 0900
+기다리고있었습니다의 GPU가 발매! 신형 Radeon HD 탑재 카드가 속속 등장 중
+열심히 한 3D 성능을 필요로하는 경우는, FPS 나 TPS 같은 프레임 단위로 승부가 갈라지는 같은 것도없는 한 조속히 필요 없다. 이러한 특수한 상황은 제외하더라도 대규모 MMORPG를 고해상도로 게다가 각종 효과를 땅땅에 효과가하고 플레이하게되면 나름대로의 3D 성능은 필요하다.
+
+부품 시장을보고 돌려 보면 2 만엔 대 중반의 그래픽 카드는 조금 모자 름 성능으로 아쉬운. 그렇다고해서 그 위를 노리는하게되면 단번에 5 만엔을 넘어 버린다. 라는 언밸런스 한 상황이 있었다. 5 만원 이상 카드는 성능은 좋아도 너무 높습니다. 성능으로 하이 엔드 조금 아래, 미들 레인지보다는 위 정도의 카드를 갖고 싶다고하는 요구에 맞게 제품이 없었던 셈이다.
+
+그런 요구에 딱 맞는 GPU가 이달 초에 발표되었다. 그것이 AMD의 Radeon HD 7870과 Radeon HD 7850이다. Radeon HD 7870은 4 만엔 중반을 커버 Radeon HD 7850이 3 만엔 대 중반을 커버한다. 이제 그래픽 카드 시장에서 2 만 엔대 중반에서 3 만엔 대 중반 4 만엔 대 중반, 5 만원 이상 선택할 수있는 제품 라인을 완성했다.
+
+3 월 5 일 발표에서는 제품이 언제 등장하는지 등이 불분명했지만, 3 월 19 일 이후에 업체로부터이 2 개의 GPU를 탑재 한 그래픽 카드가 출시된다.
+
+Radeon HD 7870과 Radeon HD 7850이 위에 Radeon HD 7950을두고 아래가 Radeon HD 7770이된다. 제조 공정은 28nm 공정에서 트랜지스터 수는 모두 28 억 스트리밍 프로세서 수와 텍스쳐 유닛의 수, 코어 클럭의 동작 주파수가 다르다.
+
+Radeon HD 7870은 스트림 프로세서가 1280 텍스처 유닛이 80 코어 클럭이 1GHz 저스트되어있다. Radeon HD 7850은 스트림 프로세서가 1024 텍스처 유닛이 64 코어 클럭이 860MHz가된다.
+
+■ MSI는 독자적인 냉각 구조 탑재로 오버 클럭 가능한 2 제품
+
+MSI가 발매하는 것은 "R7870 Twin Frozr III OC」 「AMD Radeon HD 7850」의 2 제품이다 (사진 1, 사진 2). 제품 이름의 마지막 "OC"는 말 그대로 "Over Clock"을 의미하고, RADEON HD 7870을 탑재하는 「R7870 Twin Frozr III OC '는 1GHz 오버의 코어 클럭 1,050MHz, RADEON HD 7850을 탑재하는 「R7850 Twin Frozr III OC '는 코어 클럭 900MHz로 설정되어 출하된다.
+
+
+ 
+사진 1 ■ 코어 클럭 1GHz 오버 설정에서 출하되는 'R7870 Twin Frozr III OC "
+
+
+
+ 
+사진 1 ■ 코어 클럭 900MHz 설정에서 출하되는 'R7850 Twin Frozr III OC "
+
+
+제품 이름 : R7870 Twin Frozr III OC
+번호 : R7870 Twin Frozr III OC
+발매시기 : 3 월 22 일
+예상 시장 가격 : 4 만 3,000 엔 전후
+
+제품 이름 : R7850 Twin Frozr III OC
+번호 : R7850 Twin Frozr III OC
+발매시기 : 3 월 22 일
+예상 시장 가격 : 3 만 3,000 엔 전후
+
+■ Sapphire Technology는 노멀 버전에서 OC 버전까지 죽 4 모델
+
+Sapphire Technology는 일반 클럭 버전 2 제품과 오버 클럭 버전의 2 제품 총 4 제품을 발매한다. 오버 클럭을하지 않는 표준 모델이 "Sapphire HD 7870 GHz Edition 2GB GDDR5 (번호 : SAHD787-2GD5R001 / 11199-00-20G) '과'Sapphire HD 7850 2GB GDDR5 (번호 : SAHD785-2GD5R001 / 11200-00-20G ) "의 2 모델이다.
+
+그리고 오버 클럭 버전은 1GHz에서 1050MHz로 오버 클럭 한 'Sapphire HD7870 GHz Edition OC 2GB GDDR5 (번호 : SAHD787-2GD5OCR001 / 11199-03-20G) "와 860MHz에서 920MHz로 오버 클럭 한'Sapphire HD 7850 OC 2GB GDDR5 (모형 : SAHD785-2GD5OCR001 / 11200-01-20G) "의 2 모델이된다 (사진 3, 사진 4). 어느 모델도 기존의 듀얼 팬 쿨러를 장착하여 냉각 성능을 높이고있다.
+
+
+ 
+사진 3 ■ 1GHz에서 1050MHz로 오버 클럭 한 'Sapphire HD7870 GHz Edition OC 2GB GDDR "
+
+
+
+ 
+사진 4 ■ 860MHz에서 920MHz로 오버 클럭 한 'Sapphire HD 7850 OC 2GB GDDR5 "
+
+
+
+제품 이름 : HD7870 GHZ EDITION 2G GDDR5 PCI-E HDMI / DVI-I / DUAL MINI DP
+번호 : SAHD787-2GD5R001 / 11199-00-20G
+발매시기 : 3 월 중순 ~ 하순
+예상 시장 가격 : 4 만엔 대 전반
+
+제품 이름 : HD7850 2G GDDR5 PCI-E HDMI / DVI-I / DUAL MINI DP
+번호 : SAHD785-2GD5R001 / 11200-00-20G
+발매시기 : 3 월 중순 ~ 하순
+예상 시장 가격 : 3 만엔 대 전반
+
+제품 이름 : HD7870 GHZ EDITION 2G GDDR5 PCI-E HDMI / DVI-I / DUAL MINI DP OC VERSION
+번호 : SAHD787-2GD5OCR001 / 11199-03-20G
+발매시기 : 3 월 중순 ~ 하순
+예상 시장 가격 : 4 만엔 대 전반
+
+제품 이름 : HD7850 2G GDDR5 PCI-E HDMI / DVI-I / DUAL MINI DP OC VERSION
+번호 : SAHD785-2GD5OCR001 / 11200-01-20G
+발매시기 : 3 월 중순 ~ 하순
+예상 시장 가격 : 3 만엔 대 전반
+
+■ 그래픽 카드 정보
+■ 아 스크
+
+
+
+
+
+SAPPHIRE Radeon 비디오 카드 HD7870 GHZ EDITION 2G GDDR5 PCI-E 일본 정규 대리점 상품 SAHD787-2GD5R001
+입소문을 본다

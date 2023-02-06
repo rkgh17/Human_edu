@@ -1,0 +1,13 @@
+http://news.livedoor.com/article/detail/6416069/
+2012-03-29T18 : 00 : 00 + 0900
+iPhone 및 iPad에서 브라우저 게임! 갖추어왔다 HTML5 환경
+iPhone과 iPad 등 iOS는 Adobe의 Flash를 지원하지 않기 때문에 Flash를 다용하고있는 사이트에서는 제대로 표시 할 수없는 문제가 있었다. 따라서 Web 브라우저에서 실행되는 Flash 게임을 iOS에서 동작하도록 변환하거나 일부러 iPhone 및 iPad 전용 페이지를 작성하여 단말 정보를 확인하고 전용 사이트로 전환하는 등 "에두"대응이 필요했다 .
+
+이를 해소하려면 iPhone과 iPad가 지원하는 HTML5로 Web 페이지를 구축하면된다. 하지만 iPad는 삼대, iPhone도 6 대째가 되려고하고 있음에도 불구하고 HTML5 보급 상황은 아직 불투명하다. 그러나 Mozzila 직원이나 Web 사이트의 개발자 블로그 "hacks.mozilla.org"에서 소개하고있는 'BrowserQuest'라는 사이트는 HTML5와 JavaScript로 구축되어 있으며, HTNL5의 성숙 상태를 도모 할 수있다 있게되어있다.
+
+이 사이트는 브라우저에서 놀 이차원 RPG 게임 사이트이지만 많은 사용자가 동시에 접속하여 플레이 할 수있게되어있다. HTML5를 지원하는 브라우저라면 PC 겠지만 모바일 장치이든지 플레이 할 수있다. 예를 들어 iPhone과 iPad의 Safari에서 접근해서 플레이 할 수있다. 향후 이러한 사이트가 자꾸 늘어나 터미널 당 제한이 없어지는 것을 매우 기대하고 싶다.
+
+※ Internet Explorer9에서 플레이 할 수 없다는 점에 유의
+
+■ BrowserQuest
+■ hacks.mozilla.org

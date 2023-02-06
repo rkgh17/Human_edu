@@ -1,0 +1,32 @@
+http://news.livedoor.com/article/detail/6376256/
+2012-03-16T17 : 00 : 00 + 0900
+CD 케이스 크기로 SandyBridge를 탑재 ZOTAC의 신형 컴팩트 베어 본
+아 스크는 ZOTAC의 127 밀리 사방의 초소형 베어 본 'ZBOX NANO 시리즈」의 최신 모델의 발매를 시작했다. 세로 가로 크기가 12 센티미터 CD 케이스와 비슷한 127 밀리 높이 45 밀리와 컴팩트 한 사이즈에 이번에는 SandyBridge 코어 CPU를 담아있다. ZBOX NANO 시리즈는 가로 세로가 CD 케이스와 동일한 크기 (127 밀리 × 127 밀리)는 컴팩트 한 본체가 특징 베어 본 시리즈이다. 이미 2 모델이 발매되고 있지만 플랫폼으로 VIA의 Nano X2 U4205 (1.2GHz)와 AMD Fusion MPU E-350 (1.6GHz)에서 인텔 플랫폼이 없었다.
+
+이번에 출시되는 'ZBOX NANO-ID61-J'는 최초의 인텔 플랫폼이다. CPU는 SandyBridge 코어 Intel Celeron 867 (1.6GHz)를 탑재 한 그래픽은 CPU에 내장하는 Intel HD Graphics를 사용한다. 저가형 CPU하면서도 SandyBridge 코어라는 것이 주목 포인트 다.
+
+당연히, Atom와 달리 Core 아키텍처이기 때문에 Windows 7을 만족 작동시킬만한 성능은 가지고있다. 게다가 낮은 소비와 발열도 낮고, 이러한 소형 베어 본을 향 CPU 인 셈이다. 메모리도 노트북 용 203 핀 SO-DIMM (DDR3, PC3-10600)를 최대 8G 바이트까지 탑재 할 수 있으므로 Windows 7도 싱싱 동작시킬 수있는 것이다.
+
+2.5 인치 HDD 베이에는 HDD 이외에 빠른 SSD를 쌓을 수있다. IEEE802.11n / g / b의 무선 LAN에 Bluetooth3.0 등 무선 규격도 지원하고 있으며 인터페이스로는 DisplayPort가 1, HDMI 1 기가 비트 이더넷 × 1, USB 3.0 × 2, USB 2.0 × 2, e -SATA × 1이다. 구동은 AC 어댑터를 사용하여 외부 전원이므로 CPU 이외의 열이 가득차 수없는 것도 기쁘다.
+
+게다가 7 in 1 (MMC / SD / SDHC / SDXC / MS / MS Pro / xD) 카드 리더기 및 Windows 7 MediaCenter 용 리모콘, 리모콘 수광부가 포함되어있다. USB3.0에 지상파 디지털 튜너를 연결하고 USB3.0 및 eSATA를 통해 대용량 HDD를 연결하면 녹화 된 TV 전용 머신으로의 이용도 가능하다.
+
+또한 디스플레이의 VESA 마운트에 장착 어댑터도 포함되어 있기 때문에 액정 디스플레이의 후면에 장착하는 마우스와 키보드를 무선으로 해 버리면 매우 깔끔한 PC가 완성. DisplayPort와 HDMI의 2 개를 사용해 2 화면 것도 가능하다.
+
+가격은 open price이지만 실제 판매는 3 만엔 대 후반으로 예상되고있다. 발매는 3 월 하순.
+
+■ ZBOX NANO-ID61-J 제품 정보
+■ 아 스크
+
+
+■ IT 라이프 핵 Twitter
+
+■ PC 부품의 기사 더보기
+· 이것을 붙이면 빨라진다! ? AMD 플랫폼에 최적화 된 메모리 등장
+· 차세대 22nm 프로세서 지원 "Z77X-UD5H"마더 보드의 매력을 뒤진다
+· 들려왔다 IVY Bridge의 발자취! GIGABYTE가 CeBIT 2012에서 IVY Bridge 대응 마더 전시
+· Windows 8 시대에서도 사용할 소형 PC에 최적! 차세대 22nm 프로세서 지원 가능한 높은 비용 성능 Mini-ITX 메인 보드 "GA-H61N-USB3" "
+
+
+ZOTAC AMD Fusion E350 APU 탑재 소형 베어 본 PC ZBOXNANO-AD10
+입소문을 본다

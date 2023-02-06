@@ -1,0 +1,74 @@
+﻿http://news.livedoor.com/article/detail/6297803/
+2012-02-21T08 : 00 : 00 + 0900
+Mac의 차기 OS "Mountain Lion '의 진정한 목적이란? [도움 보안]
+최근 Apple이 "Mac OS X Mountain Lion Developer Preview"를 출시했습니다. 보안 관점에서 가장 흥미로운 것은 "Gatekeeper"라는 새로운 기능으로, 이것은 소스에 따라 다운로드 한 응용 프로그램의 설치를 제한하는 기능이 있습니다.
+
+여기에는 :
+Allow applications downloaded from :
+· Mac App Store
+· Mac App Store & Identified developers
+· Anywhere
+
+즉, 일본어로 고치면 :
+다음에서 애플리케이션 다운로드를 허용 :
+· Mac App Store에서
+· Mac App Store 및 인증 된 개발자
+· 모든에서
+
+라는 것입니다.
+
+기본 설정은 "Mac App Store 및 인증 된 개발자"로되어 있기 때문에, Apple은 개발자가 여기서 생기는 마찰을 줄이고 싶다면, Apple의 「Mac Developer Program "(연회비 99 달러)에 신청할 필요가 있다는 것을 암시하고 있다고 생각됩니다.
+
+아래 이미지에서 텍스트를 보는 한, 사용자가 "모두"에서 설치를 선택하여 "Mountain Lion"는 응용 프로그램이 "Developer ID"를 수반하지 않은 경우 사용자에게 경고하는 사양으로되어 있습니다 .
+
+
+
+에프 시큐어 코퍼레이션에서 보안 관리자를 맡고있는 숀 설리반은 "이것은 적어도 시스템 보안의 관점에서는 나쁜 것은 없다. 개발자 등록비 및 설치 프롬프트는 거의 확실히 Mac의 에코 시스템을 보안 로 이끌 기위한 비용을 만들어내는 것이다. "라고 연인원"Gatekeeper "이 Mac 자신의 닫힌 공간을 만들어내는 것을 시사하고 있습니다.
+
+미래 Apple이 자사의 플랫폼을 더욱 폐쇄적하는 경우 장치 드라이버도 "Apple Developer ID"를 사용하도록 요구 될 가능성이 있습니다. 또한 Apple은 사용자 경험에 대한 대처에 주력하고 있기 때문에, 그 사용자 경험을보다 "보안"하기 위해 타사 주변 장치 드라이버 (third-party peripheral drivers)을 폐지 할 가능성이 있다고 상상할 수 있습니다.
+... 자세히보기
+
+■ Mountain Lion의 Gatekeeper : "당신"을 위해 더 많은 컨트롤을
+어제 Apple이 "Mac OS X Mountain Lion Developer Preview '를 출시했다. 보안의 관점에서 보면 가장 흥미로운 새 기능은 소스에 따라 다운로드 한 응용 프로그램의 설치를 제한하는 "Gatekeeper"이다 ...
+에프 시큐어 코퍼레이션 by : 숀 설리반 (2012 년 2 월 17 일)
+... 자세히보기
+
+
+■ 다시 "Poika"을 데리고 거리를 행진
+1 년 전, 우리는 AV-Comparatives Product of the Year 상을 수상했다. 그리고 동상이 어느새 헬싱키 곳곳을 돌고있다 ""Poika "을 데리고 거리를 행진 '라는 기사를 게재했다. 그런데, 우리는 오늘 "F-Secure 클라이언트 보안"에서 "AV-TEST Best Protection Award"트로피를받은 ...
+F-Secure 주식회사 by : 미코 힛뽀넨 (2012 년 2 월 16 일)
+... 자세히보기
+
+
+■ 모든 장치에 해킹의 가능성이있다
+존스 홉킨스 대학에서 컴퓨터 과학 교수를 맡고 Avi Rubin이 최근 TEDxMidAtlantic에서 유용한 (그리고 매우 즐거운) 프레젠테이션을 실시했다. Rubin의 강연은 다양한 장치에 대한 해킹 시도의 결과를 정리하고있다 ...
+에프 시큐어 코퍼레이션 by : 숀 설리반 (2012 년 2 월 16 일)
+... 자세히보기
+
+
+■ Cryptome 해킹
+"Cryptome.org"언론의 자유 암호화 간첩 및 감시 관련 정보의 게재에 초점을 맞춘 Web 사이트이다. 다양한 측면에서 Cryptome는 Wikileaks에 비슷하다. 1996 년부터 운영되고 있다는 이외는. 이 사이트는 John Young이라는 이름의 뉴욕에 본사를 둔 건축가가 주재하고있다 ...
+에프 시큐어 코퍼레이션 by : 미코 힛뽀넨 (2012 년 2 월 13 일)
+... 자세히보기
+
+
+■ Meet us at Smartphone & Tablet 2012 Spring
+비즈니스를 혁신하는 스마트 장치 솔루션이 한자리 모인다 "Smartphone & Tablet2012 Spring '에서 F-Secure가 기업용으로 제공하는 최신 모바일 기기 용 보안 솔루션이 선공개 될 수있게되었습니다. F-Secure는 지난해 모바일 기기를위한 보안 제품 "F-Secure 모바일 보안 for Android '와'F-Secure 모바일 보안 사업 '을 출시했지만 ...
+F-Secure 주식회사 by : 오자키 리사 (2012 년 2 월 10 일)
+... 자세히보기
+
+
+■ F-Secure 블로그보기
+■ F-Secure 공식 페이지
+
+■ 정말 도움 보안 기사를 더 본다
+해커 집단 "Anonymous"가 FBI의 전화 회의를 누수
+· Amazon 클라우드를 악용 한 Facebook 사기
+해커가 폴란드 정부를 공격
+· 인터넷을 떠들썩 SOPA 뭐?
+· Android 앱 광고에 숨어있는 권한의 함정>
+
+에프 시큐어 인터넷 시큐리티 2012 3PC 3 년판
+F-Secure (2011-11-07)
+출판사 : Amazon.co.jp
+입소문을 본다

@@ -60,3 +60,6 @@
   - 2022.11.11 ~ 2022.12.02
   - [프로젝트 폴더 링크](https://github.com/rkgh17/human-subway)
 
+- 최종 프로젝트
+  - 2022.12.16 ~ 2022.1.27
+  - [프로젝트 폴더 링크](https://github.com/rkgh17/SeoulWalk)
