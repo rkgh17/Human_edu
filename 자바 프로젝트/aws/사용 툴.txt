@@ -1,0 +1,3 @@
+ssh 연결 : MobaXterm_Personal_22.3.exe
+
+sftp : FileZila Client
